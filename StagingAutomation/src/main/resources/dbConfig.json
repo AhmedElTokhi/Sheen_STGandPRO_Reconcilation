@@ -1,0 +1,97 @@
+[
+  {
+    "hostname": "192.168.1.51",
+    "username": "READER_USER",
+    "password": "IQVjBTZcbv"
+  },
+  {
+    "hostname": "192.168.1.41",
+    "username": "READER_USER",
+    "password": "IQVjBTZcbv"
+  },
+  {
+  "hostname": "192.168.1.57",
+  "username": "READER_USER",
+  "password": "IQVjBTZcbv"
+},
+  {
+    "hostname": "192.168.1.61",
+    "username": "READER_USER",
+    "password": "IQVjBTZcbv"
+  },
+  {
+    "hostname": "192.168.1.214",
+    "username": "READER_USER",
+    "password": "IQVjBTZcbv"
+  },
+  {
+    "hostname": "192.168.1.91",
+    "username": "READER_USER",
+    "password": "IQVjBTZcbv"
+  },
+  {
+    "hostname": "192.168.1.93",
+    "username": "READER_USER",
+    "password": "IQVjBTZcbv"
+  },
+  {
+    "hostname": "192.168.1.96",
+    "username": "READER_USER",
+    "password": "IQVjBTZcbv"
+  },
+  {
+    "hostname": "192.168.1.99",
+    "username": "READER_USER",
+    "password": "IQVjBTZcbv"
+  },
+  {
+    "hostname": "192.168.1.217",
+    "username": "READER_USER",
+    "password": "IQVjBTZcbv"
+  },
+  {
+    "hostname": "192.168.1.81",
+    "username": "READER_USER",
+    "password": "IQVjBTZcbv"
+  },
+  {
+    "hostname": "192.168.1.84",
+    "username": "READER_USER",
+    "password": "IQVjBTZcbv"
+  },
+  {
+    "hostname": "192.168.1.211",
+    "username": "READER_USER",
+    "password": "IQVjBTZcbv"
+  },
+  {
+    "hostname": "192.168.1.220",
+    "username": "READER_USER",
+    "password": "IQVjBTZcbv"
+  },
+  {
+    "hostname": "192.168.1.238",
+    "username": "READER_USER",
+    "password": "IQVjBTZcbv"
+  },
+  {
+    "hostname": "192.168.1.240",
+    "username": "READER_USER",
+    "password": "IQVjBTZcbv"
+  },
+  {
+    "hostname": "192.168.1.242",
+    "username": "READER_USER",
+    "password": "IQVjBTZcbv"
+  },
+  {
+    "hostname": "192.168.1.34",
+    "username": "READER_USER",
+    "password": "IQVjBTZcbv"
+  },
+  {
+    "hostname": "192.168.1.71",
+    "username": "READER_USER",
+    "password": "IQVjBTZcbv"
+  }
+]

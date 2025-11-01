@@ -1,0 +1,70 @@
+[INFO ] 2025-09-24 14:30:45.199 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.8.2.20240624[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-09-24 14:30:45.206 [] ReportManager - Checking for engine updates...
+[INFO ] 2025-09-24 14:30:45.213 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2025-09-24 14:30:45.214 [] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2025-09-24 14:30:45.220 [main] ReportManager - TestNG run detected...
+[INFO ] 2025-09-24 14:30:45.456 [main] Utils - [TestNG] Running:
+  C:\Users\user qa\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+[INFO ] 2025-09-24 14:30:45.489 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-09-24 14:30:45.512 [main] ReportManager - Initializing Important Links...
+[INFO ] 2025-09-24 14:30:45.525 [main] ReportManager - Initializing Properties...
+[INFO ] 2025-09-24 14:30:45.622 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                               Test Method: 'Reconciliation_TC.DB_STG_TC.saveCSV'                                               
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-09-24 14:30:45.623 [main] ReportManager - Starting DB -> CSV Test...
+[WARN ] 2025-09-24 14:30:45.747 [main] ReportManager - java.lang.RuntimeException: dbConfig.json not found in resources folder
+[WARN ] 2025-09-24 14:30:45.748 [main] ReportManager - 	at Reconciliation_TC.DB_STG_TC.loadJsonFile(DB_STG_TC.java:30)
+[WARN ] 2025-09-24 14:30:45.748 [main] ReportManager - 	at Reconciliation_TC.DB_STG_TC.saveCSV(DB_STG_TC.java:48)
+[WARN ] 2025-09-24 14:30:45.748 [main] ReportManager - 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[WARN ] 2025-09-24 14:30:45.748 [main] ReportManager - 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[WARN ] 2025-09-24 14:30:45.748 [main] ReportManager - 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+[WARN ] 2025-09-24 14:30:45.748 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+[WARN ] 2025-09-24 14:30:45.748 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+[WARN ] 2025-09-24 14:30:45.749 [main] ReportManager - 	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+[WARN ] 2025-09-24 14:30:45.750 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+[WARN ] 2025-09-24 14:30:45.750 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+[WARN ] 2025-09-24 14:30:45.750 [main] ReportManager - 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+[WARN ] 2025-09-24 14:30:45.750 [main] ReportManager - 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+[WARN ] 2025-09-24 14:30:45.751 [main] ReportManager - 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+[WARN ] 2025-09-24 14:30:45.751 [main] ReportManager - 	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+[WARN ] 2025-09-24 14:30:45.751 [main] ReportManager - 	at org.testng.TestRunner.run(TestRunner.java:619)
+[WARN ] 2025-09-24 14:30:45.751 [main] ReportManager - 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+[WARN ] 2025-09-24 14:30:45.751 [main] ReportManager - 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+[WARN ] 2025-09-24 14:30:45.752 [main] ReportManager - 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+[WARN ] 2025-09-24 14:30:45.752 [main] ReportManager - 	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+[WARN ] 2025-09-24 14:30:45.752 [main] ReportManager - 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+[WARN ] 2025-09-24 14:30:45.753 [main] ReportManager - 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+[WARN ] 2025-09-24 14:30:45.753 [main] ReportManager - 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+[WARN ] 2025-09-24 14:30:45.753 [main] ReportManager - 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+[WARN ] 2025-09-24 14:30:45.753 [main] ReportManager - 	at org.testng.TestNG.runSuites(TestNG.java:1134)
+[WARN ] 2025-09-24 14:30:45.753 [main] ReportManager - 	at org.testng.TestNG.run(TestNG.java:1101)
+[WARN ] 2025-09-24 14:30:45.753 [main] ReportManager - 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+[WARN ] 2025-09-24 14:30:45.753 [main] ReportManager - 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+[INFO ] 2025-09-24 14:30:45.754 [main] ReportManager - Done Test.
+[INFO ] 2025-09-24 14:30:45.760 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: saveCSV'
+[INFO ] 2025-09-24 14:30:45.761 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                    Finished Execution of Test Method: 'Reconciliation_TC.DB_STG_TC.saveCSV'                                    
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-09-24 14:30:45.852 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-09-24 14:30:45.853 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'

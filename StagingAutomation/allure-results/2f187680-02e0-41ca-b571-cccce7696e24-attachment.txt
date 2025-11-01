@@ -1,0 +1,249 @@
+[INFO ] 2025-10-23 00:58:51.937 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.8.2.20240624[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-10-23 00:58:51.946 [] ReportManager - Checking for engine updates...
+[INFO ] 2025-10-23 00:58:51.960 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2025-10-23 00:58:51.961 [] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2025-10-23 00:58:51.972 [main] ReportManager - TestNG run detected...
+[INFO ] 2025-10-23 00:58:52.207 [main] Utils - [TestNG] Running:
+  C:\Users\user qa\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+[INFO ] 2025-10-23 00:58:52.247 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-10-23 00:58:52.265 [main] ReportManager - Initializing Important Links...
+[INFO ] 2025-10-23 00:58:52.276 [main] ReportManager - Initializing Properties...
+[INFO ] 2025-10-23 00:58:52.385 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                              Test Method: 'Reconciliation_TC.B1_DB_STG_TC.saveCSV'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-10-23 00:58:52.386 [main] B1_DB_STG_TC - 🚀 Starting DB -> CSV Test...
+[INFO ] 2025-10-23 00:58:53.181 [] ReportManager - Loaded OpenCV "opencv_java490".
+[DEBUG] 2025-10-23 00:58:53.782 [] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+[DEBUG] 2025-10-23 00:58:53.806 [] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[DEBUG] 2025-10-23 00:58:54.139 [] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2025-10-23 00:58:54.140 [] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2025-10-23 00:58:54.140 [] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2025-10-23 00:58:54.140 [] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2025-10-23 00:58:54.141 [] DefaultClientConnection - Sending request: GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2025-10-23 00:58:54.141 [] wire -  >> "GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.141 [] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.142 [] wire -  >> "Host: api.github.com[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.142 [] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.142 [] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/22.0.2)[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.142 [] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.142 [] wire -  >> "[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.142 [] headers - >> GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2025-10-23 00:58:54.142 [] headers - >> Accept: */*
+[DEBUG] 2025-10-23 00:58:54.142 [] headers - >> Host: api.github.com
+[DEBUG] 2025-10-23 00:58:54.142 [] headers - >> Connection: Keep-Alive
+[DEBUG] 2025-10-23 00:58:54.142 [] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/22.0.2)
+[DEBUG] 2025-10-23 00:58:54.142 [] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2025-10-23 00:58:54.381 [] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.382 [] wire -  << "Date: Wed, 22 Oct 2025 21:58:54 GMT[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.382 [] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.382 [] wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.382 [] wire -  << "Vary: Accept,Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.382 [] wire -  << "ETag: W/"d45238a4e6e2a191df941d523ca2ed57ba4ecd87590899ad727e88e042a10650"[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.382 [] wire -  << "Last-Modified: Wed, 22 Oct 2025 08:15:36 GMT[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.383 [] wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.383 [] wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.383 [] wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.383 [] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.383 [] wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.383 [] wire -  << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.383 [] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.383 [] wire -  << "X-XSS-Protection: 0[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.383 [] wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.383 [] wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.383 [] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.383 [] wire -  << "Server: github.com[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.383 [] wire -  << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.384 [] wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.384 [] wire -  << "X-RateLimit-Remaining: 58[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.384 [] wire -  << "X-RateLimit-Reset: 1761171168[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.384 [] wire -  << "X-RateLimit-Resource: core[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.384 [] wire -  << "X-RateLimit-Used: 2[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.384 [] wire -  << "Content-Length: 1141[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.384 [] wire -  << "X-GitHub-Request-Id: FF03:2D3C0C:C93D79:BADEAF:68F9539E[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.384 [] wire -  << "[\r][\n]"
+[DEBUG] 2025-10-23 00:58:54.385 [] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2025-10-23 00:58:54.385 [] headers - << HTTP/1.1 200 OK
+[DEBUG] 2025-10-23 00:58:54.385 [] headers - << Date: Wed, 22 Oct 2025 21:58:54 GMT
+[DEBUG] 2025-10-23 00:58:54.385 [] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2025-10-23 00:58:54.385 [] headers - << Cache-Control: public, max-age=60, s-maxage=60
+[DEBUG] 2025-10-23 00:58:54.385 [] headers - << Vary: Accept,Accept-Encoding, Accept, X-Requested-With
+[DEBUG] 2025-10-23 00:58:54.385 [] headers - << ETag: W/"d45238a4e6e2a191df941d523ca2ed57ba4ecd87590899ad727e88e042a10650"
+[DEBUG] 2025-10-23 00:58:54.385 [] headers - << Last-Modified: Wed, 22 Oct 2025 08:15:36 GMT
+[DEBUG] 2025-10-23 00:58:54.385 [] headers - << X-GitHub-Media-Type: github.v3; format=json
+[DEBUG] 2025-10-23 00:58:54.385 [] headers - << x-github-api-version-selected: 2022-11-28
+[DEBUG] 2025-10-23 00:58:54.385 [] headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+[DEBUG] 2025-10-23 00:58:54.385 [] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2025-10-23 00:58:54.385 [] headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+[DEBUG] 2025-10-23 00:58:54.385 [] headers - << X-Frame-Options: deny
+[DEBUG] 2025-10-23 00:58:54.385 [] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2025-10-23 00:58:54.385 [] headers - << X-XSS-Protection: 0
+[DEBUG] 2025-10-23 00:58:54.385 [] headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+[DEBUG] 2025-10-23 00:58:54.386 [] headers - << Content-Security-Policy: default-src 'none'
+[DEBUG] 2025-10-23 00:58:54.386 [] headers - << Content-Encoding: gzip
+[DEBUG] 2025-10-23 00:58:54.386 [] headers - << Server: github.com
+[DEBUG] 2025-10-23 00:58:54.386 [] headers - << Accept-Ranges: bytes
+[DEBUG] 2025-10-23 00:58:54.386 [] headers - << X-RateLimit-Limit: 60
+[DEBUG] 2025-10-23 00:58:54.386 [] headers - << X-RateLimit-Remaining: 58
+[DEBUG] 2025-10-23 00:58:54.386 [] headers - << X-RateLimit-Reset: 1761171168
+[DEBUG] 2025-10-23 00:58:54.386 [] headers - << X-RateLimit-Resource: core
+[DEBUG] 2025-10-23 00:58:54.386 [] headers - << X-RateLimit-Used: 2
+[DEBUG] 2025-10-23 00:58:54.386 [] headers - << Content-Length: 1141
+[DEBUG] 2025-10-23 00:58:54.386 [] headers - << X-GitHub-Request-Id: FF03:2D3C0C:C93D79:BADEAF:68F9539E
+[DEBUG] 2025-10-23 00:58:54.396 [] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2025-10-23 00:58:54.397 [] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xad]WaO[0xdb]:[0x14][0xfd]+V[0xa6][0xe9]I[0x88]:M[0x9a][0x94]6[0xd2][0xb4][0x7][0x94]1>[0x0][0xdb]`[0x9a][0xf4]x[0xa8]r[0x12]71$[0xb1][0xb1][0x9d][0xf6]u[0x15][0xff][0xfd]];[0xa1][0x82]"
+[DEBUG] 2025-10-23 00:58:54.397 [] wire -  << "h+[0x13][0xad][0x10][0xc5]I[0xed]s[0xaf][0xcf]=>[0xd7][0xac][0x9c]Z[0x16]N[0xe4][0xe4]Z[0xb][0x15][0xb9].[0x11][0xc]gL[0xe7]u[0x8c][0x13]^[0xba][0x92][\n]"
+[DEBUG] 2025-10-23 00:58:54.397 [] wire -  << "[0xae][0xdc][0xab][0x9c][0xcc][0xf4][0xe7][0xaf][0xee][0xd5][0xe7][0xc3]O[0xd7][0xd3][0x93][0x8b][0xd3][0xb3][0x8b][0x13][0xf8][0xaa][0xa0]DQ[0xe5][0xfa][0xe1][0xd0][0x1f][0x86][0xe3]0p[0xf6][0x1d][0xa2][0x14][0xd5]j[0xba];L[0xb7]A[0x4][0xe8]Z[0x14][0x9c][0xa4][0x1d][0xe8][0xe6][0xa5]zs[0xca]-[0xfc][0xea]cEJ[0xba]_[0x90][0x98][0x16][0x8f][0x10]+[0xd7]e[0xd1][0x89][0xf4][0x8c][0x94][0xcd]th[0x92][0xb9]c[0x1c]`[0xbf][0xef][0x87]^[0xdf][0xf7][0x1][0x8e][0xa5]N[0xb4]f[0x9]H[0xaa]u[0xce][0xa5][0x13][0xad][0x9c][0x82]g[0xac][0x2][0xf6][0x1b][0xf0][0x1e]I4[0xe3][0x95][0xba][0x89][0xb9][0xbe]m[0x97][0x5][0xde]h<[0xf2]G[0xfe][0xbe]S[0xf1][0x94]N[\r][0x92]s>9[0x1f]~-[0xc7][0xfd][0x8b][0xc9]Ipy[0x9d]-/'g[0x1f][0xc][0xf7]s[0xa2][0x89][0xec]ro_>[0x11]T+*[0x13]^iZi[^V[0xb9]^8[0x18][0x8e]>[0xce]?[0x98][0xea]e[0xb2][0xc5][0xb0]a[0xc][0xe7][0x9b][0xb4]a[0xc0][0x94][0xfb]2[0xf5][0xf7][0xe1][0x11]$[0xff]>[0x9c][0xbc]J"[0x11][0xa2][0xbb][0x18][0xd6][0xcc]xQ[0xf0][0x5][0xe0]v[0xb7][0xf1]R[0x96][0x1b]C[0xbb]k[0x90]5 [0xab][0xb2][0xed][0x1][0x1]d[0xe5]r[0x9d]S[0xe0][0x18][0xb6]nt[0x92]1[0xf5][0x9a][0xda]7[0xa7]j[0x1]V@[0xa2][0xd2]P[[0x3][0xa9][0xa0]\[0x92]vu[0xde]9[0x96][0x9b]A[[0x8]HvQA[0x9e]+{[0x8a]-v[0x1d][0xab]D2aU[0xb6][\r]!/[0x80][0x0][0x98][0xcb][0x8c]T[0xec]'[0xd9][0x1a][0x18][0x80][0x14][0xe0]Y[0xdb][0xd9]&A[0xb][0x0]@t[0xe]R[0xdf][\n]"
+[DEBUG] 2025-10-23 00:58:54.397 [] wire -  << "[0xa9]AX[0xb9]B[0xb2]9I[0x96][0x86]FI[0x13][0xca][0xe6]P[0xa3][0xed][0xd1];P[0x0][0xae][0x97][0x82][0xc2][0xe1];[0xe2][0x1a][0x1e]L[0x9d][0xa7]sF[0x17][0xd3][0xf6][0xb5][0xa8][0xe3][0x82]%[0xa6][0x94]L[0xd3])IKc[0x1f]3R([0xfa][0xf8][0xdc]![0xbe][0x9d]L[0xef][0x17][0x93][0xcb][0xe3]Sz=T[0xc1][0x97]o[0xf7][0x7][0xcc]@[0x93]lj|[0xe][0xe0];[0x6][0x5][0x9a][0xcb][0xa8][0x9e][0x82]%[0x94]L3[0x95][0xc3][0x8c][0x92][0x0]4`[0xfe]r~*[0xa1]![0xb4][0x81][0xc1][0xde][0xca][0xb2][0xd6]$.[0x0][0xd8][0xa6][0xb2][0xef][0x8]I[0xdb][0xf6][0xb0]~[0x95]HJ4pF`[0x9d]c[0xbc][0xb1][0xe7][0xf5]{[0xbe][0xdd][0x1f]E^[0x18]y[0x83][0xcc]vE[0xba]a[0xce]`h[0xe6]X[0x6]T[0xfe][[0xa4]fV[0xdb]5[0xa2][0x9b][[0xb3]m[0x19][0x93][0xa2][0xeb][0xe7][0xde][0xe8][0xda][0xf5]]S[0xff][0xc9][0xc4]V[0xb0][0xed][0xfa].l[0xcc][0xd3]%0[0xf4][0xee][0x1d][0xfa][0x91][0x13][0xfd][0x97]B[0xc7]9[0xa9]2[0x9a][0xfe][[0xed][0xa1][0xa3][0xba][0x14][0xa8]1\7[0x81]v[0xf0]P[0xb4]-[0x3][0xcd]$/[0xd1][0x0]i[0x8e][0x2][0x14]/[0xd1][0xdf])[0x15][0xb4]J[0x9]x[0xb1]m&[0x88]U[0xe8][0xa9][0xc3][0xbf][0xd6][0xc8]D][0x14][0xae][0xef][\r]F[0xeb][0x88]m[r[0xa1][0xb5][0xd7][0xa2]g[0xfa]P[0x13]/4[0xf1][0x86];[0x8a][0x17][0xf4][0xd7][0xf1]@[0x86][0xb8]d[0x89][0xe4][0x8a][0xcf]4V[0xf] )9[0xa7]2*[0x15][0x8c]{wi[0x9c]4[0xf1][0xbd][0x1][0xf6]q[0x1f][0xdf]I[0xea]y&[0x15][0xfb][0xec][0xb5][0xcf];bal[0xb2]:[0xa9][0xa0][0x6][0x9]E[0x92][0x96]\S[0xb4][0xa0]q[\n]"
+[DEBUG] 2025-10-23 00:58:54.397 [] wire -  << "n@%"uV[0x82][0xc1]X[0xdf][0xb3]<[0x9c][0xf3][0x9c][0xc4][0xf0][0xc1][0xe8][0x1b]([0xf]<[0x13][0xec][0x8a][0x94][0xa2][0xa0]HH~G[0x13][0xad]v[0x0][0xeb][0x1b][0xd8][0xc3]4E[0x87]g=a[0xba]+M[0x91][0xbd][0xca]=[0x5]A[0x19][0x85]FA4[0x97]h[0x1]w?[0x94].[0xe1][0xd8][0xb3][0x4]i[\n]"
+[DEBUG] 2025-10-23 00:58:54.397 [] wire -  << "[0xa9][0xc0][0x89]D[\n]"
+[DEBUG] 2025-10-23 00:58:54.397 [] wire -  << "[0xee]z[0xf6]nb[0xb3]9[0xe6][0x82][0x15]\[0xbf]e[0x87][0x83]u[0x91][0xc1][0xe9]1[0x11]$[0xc9])[0x16][0xe9],[0xe6][0xff]E[0xcd][0x9f]V[0xca]PW+[0xaf][0x1][0xc]v&[0xb1][0xf0][0x85][0xc4][0xa8] %6[0x8d]Bj[0xf3]K[0x8a][0x88][0x0][0xf][0xba]w[0x7][0x97][0xa0][0x9e][0xa6]JWY[0xab]s<[0xc4][0xbe]I&[0x84][0xc1]`Wz[0xf]^$[0x93]q[0x9e][0x15][0x14]'r)4[0xc7][0x9a]U[0xf7][0x91][0xf9]h[0x85][0x8e][0xbd][0x11][0xee][[0x89]co[0xc][0xa3][0xdd][0x88];[0xb0][0xe2][0xb6][0xa6]b[0xaa]a[0x8a]\[0xb1][0xba][0xcc][0x1f][0xd6][0xc3][0xe8][0xe9][0x9d]%[0xa5]I&[0xc0][0x83]a[0x93][0xc][0x8c][0xe]v[0x97][0xcc][0x81]I[0xe6][0xbb][0xed][0x0][0xe8][0xaa]M[0x5][0x9d]J[0x96][0xa2][0x9]O[0xee][0xe1][0xb0][0xb1][0x12][0xea][0xa3][0xc][0xb]F[0x93]J#[0xb8][0xe7]@[0xd3]Ap[0x10][0x95][0xb9][0xd0]XV~q[0x93]~[0x8b]N[0xad][0xf9][0xdd][0xfc]8[0xfb]r[0x8b][0x8e]m[0xe3]B[0xc6][0x16][0xc1][0x0][0x1e]j[0x13][0x19]rhz[0x15][0xa2][0x15][0xdc][0xe0][0xd7]9ly<B0[0x0][0xf3][0xb3][0xb7][0xf7][0xc9]Dk[0x9c][0x1f][0xfe]G[0xd8][0xdb][0x8b][0xfe][0xd8][0xbe][0xc1]<[0x5][0x91][0xf4]Y[[0xe9][0x1f]`[0x8c];[\r][0xdf][0xb8][0x96][0xbd][0x4]&[0xbc][0xae][0xa0]#[0xfb][0x8f][0xff][0x3][0xbe][0xc4][0x1d][0xbb][0x9][0xe][0x0][0x0]"
+[DEBUG] 2025-10-23 00:58:54.398 [] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2025-10-23 00:58:54.446 [] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2b220e61
+[DEBUG] 2025-10-23 00:58:54.446 [] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2025-10-23 00:58:55.006 [] ReportManager - Engine Update check done for the day. 👍
+[INFO ] 2025-10-23 00:59:10.437 [main] B1_DB_STG_TC - --------------------------------------------------
+[INFO ] 2025-10-23 00:59:10.437 [main] B1_DB_STG_TC - ✅ Connected to DB: 192.168.1.51
+[INFO ] 2025-10-23 00:59:10.437 [main] B1_DB_STG_TC - 📊 Rows fetched: 0
+[INFO ] 2025-10-23 00:59:10.438 [main] B1_DB_STG_TC - --------------------------------------------------
+
+[INFO ] 2025-10-23 00:59:10.461 [main] B1_DB_STG_TC - --------------------------------------------------
+[INFO ] 2025-10-23 00:59:10.461 [main] B1_DB_STG_TC - ✅ Connected to DB: 192.168.1.41
+[INFO ] 2025-10-23 00:59:10.461 [main] B1_DB_STG_TC - 📊 Rows fetched: 0
+[INFO ] 2025-10-23 00:59:10.462 [main] B1_DB_STG_TC - --------------------------------------------------
+
+[INFO ] 2025-10-23 00:59:12.135 [main] B1_DB_STG_TC - --------------------------------------------------
+[INFO ] 2025-10-23 00:59:12.135 [main] B1_DB_STG_TC - ✅ Connected to DB: 192.168.1.57
+[INFO ] 2025-10-23 00:59:12.135 [main] B1_DB_STG_TC - 📊 Rows fetched: 1
+[INFO ] 2025-10-23 00:59:12.135 [main] B1_DB_STG_TC - --------------------------------------------------
+
+[INFO ] 2025-10-23 00:59:28.967 [main] B1_DB_STG_TC - --------------------------------------------------
+[INFO ] 2025-10-23 00:59:28.967 [main] B1_DB_STG_TC - ✅ Connected to DB: 192.168.1.61
+[INFO ] 2025-10-23 00:59:28.968 [main] B1_DB_STG_TC - 📊 Rows fetched: 0
+[INFO ] 2025-10-23 00:59:28.968 [main] B1_DB_STG_TC - --------------------------------------------------
+
+[INFO ] 2025-10-23 00:59:30.472 [main] B1_DB_STG_TC - --------------------------------------------------
+[INFO ] 2025-10-23 00:59:30.472 [main] B1_DB_STG_TC - ✅ Connected to DB: 192.168.1.214
+[INFO ] 2025-10-23 00:59:30.472 [main] B1_DB_STG_TC - 📊 Rows fetched: 0
+[INFO ] 2025-10-23 00:59:30.474 [main] B1_DB_STG_TC - --------------------------------------------------
+
+[INFO ] 2025-10-23 00:59:33.601 [main] B1_DB_STG_TC - --------------------------------------------------
+[INFO ] 2025-10-23 00:59:33.601 [main] B1_DB_STG_TC - ✅ Connected to DB: 192.168.1.91
+[INFO ] 2025-10-23 00:59:33.601 [main] B1_DB_STG_TC - 📊 Rows fetched: 0
+[INFO ] 2025-10-23 00:59:33.602 [main] B1_DB_STG_TC - --------------------------------------------------
+
+[INFO ] 2025-10-23 00:59:34.997 [main] B1_DB_STG_TC - --------------------------------------------------
+[INFO ] 2025-10-23 00:59:34.997 [main] B1_DB_STG_TC - ✅ Connected to DB: 192.168.1.93
+[INFO ] 2025-10-23 00:59:34.997 [main] B1_DB_STG_TC - 📊 Rows fetched: 0
+[INFO ] 2025-10-23 00:59:34.998 [main] B1_DB_STG_TC - --------------------------------------------------
+
+[INFO ] 2025-10-23 00:59:36.307 [main] B1_DB_STG_TC - --------------------------------------------------
+[INFO ] 2025-10-23 00:59:36.307 [main] B1_DB_STG_TC - ✅ Connected to DB: 192.168.1.96
+[INFO ] 2025-10-23 00:59:36.307 [main] B1_DB_STG_TC - 📊 Rows fetched: 0
+[INFO ] 2025-10-23 00:59:36.307 [main] B1_DB_STG_TC - --------------------------------------------------
+
+[ERROR] 2025-10-23 00:59:57.474 [main] B1_DB_STG_TC - ❌ Error connecting/querying DB 192.168.1.99: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[INFO ] 2025-10-23 00:59:57.500 [main] B1_DB_STG_TC - --------------------------------------------------
+[INFO ] 2025-10-23 00:59:57.500 [main] B1_DB_STG_TC - ✅ Connected to DB: 192.168.1.217
+[INFO ] 2025-10-23 00:59:57.500 [main] B1_DB_STG_TC - 📊 Rows fetched: 0
+[INFO ] 2025-10-23 00:59:57.501 [main] B1_DB_STG_TC - --------------------------------------------------
+
+[INFO ] 2025-10-23 01:00:14.444 [main] B1_DB_STG_TC - --------------------------------------------------
+[INFO ] 2025-10-23 01:00:14.444 [main] B1_DB_STG_TC - ✅ Connected to DB: 192.168.1.81
+[INFO ] 2025-10-23 01:00:14.444 [main] B1_DB_STG_TC - 📊 Rows fetched: 0
+[INFO ] 2025-10-23 01:00:14.444 [main] B1_DB_STG_TC - --------------------------------------------------
+
+[INFO ] 2025-10-23 01:00:17.943 [main] B1_DB_STG_TC - --------------------------------------------------
+[INFO ] 2025-10-23 01:00:17.943 [main] B1_DB_STG_TC - ✅ Connected to DB: 192.168.1.84
+[INFO ] 2025-10-23 01:00:17.943 [main] B1_DB_STG_TC - 📊 Rows fetched: 0
+[INFO ] 2025-10-23 01:00:17.943 [main] B1_DB_STG_TC - --------------------------------------------------
+
+[INFO ] 2025-10-23 01:00:19.790 [main] B1_DB_STG_TC - --------------------------------------------------
+[INFO ] 2025-10-23 01:00:19.790 [main] B1_DB_STG_TC - ✅ Connected to DB: 192.168.1.211
+[INFO ] 2025-10-23 01:00:19.790 [main] B1_DB_STG_TC - 📊 Rows fetched: 0
+[INFO ] 2025-10-23 01:00:19.790 [main] B1_DB_STG_TC - --------------------------------------------------
+
+[INFO ] 2025-10-23 01:00:19.808 [main] B1_DB_STG_TC - --------------------------------------------------
+[INFO ] 2025-10-23 01:00:19.809 [main] B1_DB_STG_TC - ✅ Connected to DB: 192.168.1.220
+[INFO ] 2025-10-23 01:00:19.809 [main] B1_DB_STG_TC - 📊 Rows fetched: 0
+[INFO ] 2025-10-23 01:00:19.809 [main] B1_DB_STG_TC - --------------------------------------------------
+
+[INFO ] 2025-10-23 01:00:21.629 [main] B1_DB_STG_TC - --------------------------------------------------
+[INFO ] 2025-10-23 01:00:21.629 [main] B1_DB_STG_TC - ✅ Connected to DB: 192.168.1.238
+[INFO ] 2025-10-23 01:00:21.629 [main] B1_DB_STG_TC - 📊 Rows fetched: 0
+[INFO ] 2025-10-23 01:00:21.630 [main] B1_DB_STG_TC - --------------------------------------------------
+
+[INFO ] 2025-10-23 01:00:23.209 [main] B1_DB_STG_TC - --------------------------------------------------
+[INFO ] 2025-10-23 01:00:23.209 [main] B1_DB_STG_TC - ✅ Connected to DB: 192.168.1.240
+[INFO ] 2025-10-23 01:00:23.209 [main] B1_DB_STG_TC - 📊 Rows fetched: 0
+[INFO ] 2025-10-23 01:00:23.210 [main] B1_DB_STG_TC - --------------------------------------------------
+
+[INFO ] 2025-10-23 01:00:23.230 [main] B1_DB_STG_TC - --------------------------------------------------
+[INFO ] 2025-10-23 01:00:23.230 [main] B1_DB_STG_TC - ✅ Connected to DB: 192.168.1.242
+[INFO ] 2025-10-23 01:00:23.230 [main] B1_DB_STG_TC - 📊 Rows fetched: 0
+[INFO ] 2025-10-23 01:00:23.230 [main] B1_DB_STG_TC - --------------------------------------------------
+
+[INFO ] 2025-10-23 01:00:26.282 [main] B1_DB_STG_TC - --------------------------------------------------
+[INFO ] 2025-10-23 01:00:26.282 [main] B1_DB_STG_TC - ✅ Connected to DB: 192.168.1.34
+[INFO ] 2025-10-23 01:00:26.282 [main] B1_DB_STG_TC - 📊 Rows fetched: 2
+[INFO ] 2025-10-23 01:00:26.282 [main] B1_DB_STG_TC - --------------------------------------------------
+
+[INFO ] 2025-10-23 01:00:26.328 [main] B1_DB_STG_TC - --------------------------------------------------
+[INFO ] 2025-10-23 01:00:26.328 [main] B1_DB_STG_TC - ✅ Connected to DB: 192.168.1.71
+[INFO ] 2025-10-23 01:00:26.329 [main] B1_DB_STG_TC - 📊 Rows fetched: 0
+[INFO ] 2025-10-23 01:00:26.329 [main] B1_DB_STG_TC - --------------------------------------------------
+
+[INFO ] 2025-10-23 01:00:26.329 [main] B1_DB_STG_TC - 
+========= 📊 QUERY SUMMARY 📊 =========
+[INFO ] 2025-10-23 01:00:26.329 [main] B1_DB_STG_TC - DB: 192.168.1.51 -> Rows: 0
+[INFO ] 2025-10-23 01:00:26.329 [main] B1_DB_STG_TC - DB: 192.168.1.41 -> Rows: 0
+[INFO ] 2025-10-23 01:00:26.329 [main] B1_DB_STG_TC - DB: 192.168.1.57 -> Rows: 1
+[INFO ] 2025-10-23 01:00:26.330 [main] B1_DB_STG_TC - DB: 192.168.1.61 -> Rows: 0
+[INFO ] 2025-10-23 01:00:26.330 [main] B1_DB_STG_TC - DB: 192.168.1.214 -> Rows: 0
+[INFO ] 2025-10-23 01:00:26.330 [main] B1_DB_STG_TC - DB: 192.168.1.91 -> Rows: 0
+[INFO ] 2025-10-23 01:00:26.330 [main] B1_DB_STG_TC - DB: 192.168.1.93 -> Rows: 0
+[INFO ] 2025-10-23 01:00:26.330 [main] B1_DB_STG_TC - DB: 192.168.1.96 -> Rows: 0
+[INFO ] 2025-10-23 01:00:26.330 [main] B1_DB_STG_TC - DB: 192.168.1.99 -> Rows: 0
+[INFO ] 2025-10-23 01:00:26.330 [main] B1_DB_STG_TC - DB: 192.168.1.217 -> Rows: 0
+[INFO ] 2025-10-23 01:00:26.330 [main] B1_DB_STG_TC - DB: 192.168.1.81 -> Rows: 0
+[INFO ] 2025-10-23 01:00:26.330 [main] B1_DB_STG_TC - DB: 192.168.1.84 -> Rows: 0
+[INFO ] 2025-10-23 01:00:26.330 [main] B1_DB_STG_TC - DB: 192.168.1.211 -> Rows: 0
+[INFO ] 2025-10-23 01:00:26.331 [main] B1_DB_STG_TC - DB: 192.168.1.220 -> Rows: 0
+[INFO ] 2025-10-23 01:00:26.331 [main] B1_DB_STG_TC - DB: 192.168.1.238 -> Rows: 0
+[INFO ] 2025-10-23 01:00:26.331 [main] B1_DB_STG_TC - DB: 192.168.1.240 -> Rows: 0
+[INFO ] 2025-10-23 01:00:26.331 [main] B1_DB_STG_TC - DB: 192.168.1.242 -> Rows: 0
+[INFO ] 2025-10-23 01:00:26.331 [main] B1_DB_STG_TC - DB: 192.168.1.34 -> Rows: 2
+[INFO ] 2025-10-23 01:00:26.331 [main] B1_DB_STG_TC - DB: 192.168.1.71 -> Rows: 0
+[INFO ] 2025-10-23 01:00:26.331 [main] B1_DB_STG_TC - --------------------------------------
+[INFO ] 2025-10-23 01:00:26.331 [main] B1_DB_STG_TC - TOTAL Rows from all DBs = 3
+[INFO ] 2025-10-23 01:00:26.331 [main] B1_DB_STG_TC - ======================================
+[INFO ] 2025-10-23 01:00:26.334 [main] B1_DB_STG_TC - ✅ CSV file created successfully at: C:\Users\user qa\Downloads\STGandPROReconcilation\StagingAutomation/output/All_DB_Results.csv
+[INFO ] 2025-10-23 01:00:26.334 [main] B1_DB_STG_TC - 🎯 Done Test.
+[INFO ] 2025-10-23 01:00:26.339 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: saveCSV'
+[INFO ] 2025-10-23 01:00:26.339 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                   Finished Execution of Test Method: 'Reconciliation_TC.B1_DB_STG_TC.saveCSV'                                   
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-10-23 01:00:26.412 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-10-23 01:00:26.414 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
